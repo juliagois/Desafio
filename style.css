@@ -52,14 +52,16 @@ nav a{
     
  }
  
-  
+  .abrirMenu{
+    transform: translateX(0);
+  }
 
 @media(max-width:768px){
   nav{
     position: relative;
   }
     #menuHamburguer{
-        display: block;
+        display: flex;
         width: 30px;
         position: relative;
         cursor: pointer;
@@ -73,7 +75,7 @@ nav a{
     
     }
     .trace{
-        display: block;
+        display: flex;
         position: absolute;
         width: 100%;
         height: 3px;
@@ -86,16 +88,13 @@ nav a{
        -moz-transition: 0.5s all;
        -o-transition: 0.5s all;
       }
-      .abrirMenu{
-        transform: translateX(0);
-      }
     nav div{
         position: fixed;
         background: blue;
         height: 100vh;
         width: 100%;
         flex-direction: column;
-        display: none;
+        display: flex;
         transition: all 1s ease-out;
           
     }
