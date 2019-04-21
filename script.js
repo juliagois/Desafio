@@ -1,11 +1,11 @@
 let hamburguer= document.querySelector("div");
-let nomes= document.querySelector("#menuHamburguer");
+let menuHamburguer= document.querySelector("#menuHamburguer");
 //let links = document.querySelector("a");
 
 
 
 function abrirMenu(){
-    nomes.classList.toggle("abrirMenu");
+    hamburguer.classList.toggle("abrirMenu");
  }
   
   menuHamburguer.onclick = abrirMenu;

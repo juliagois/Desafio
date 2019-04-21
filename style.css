@@ -9,8 +9,9 @@ nav div{
     align-items: center;
     width: 50%;
     margin-left: auto;
-    
-   
+    transform: translateX(-105vw);
+    transition: 0.5s;
+     
 }
 
 nav a{
