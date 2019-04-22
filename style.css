@@ -9,9 +9,7 @@ nav div{
     align-items: center;
     width: 50%;
     margin-left: auto;
-    transform: translateX(-105vw);
-    transition: 0.5s;
-     
+    
 }
 
 nav a{
@@ -97,6 +95,8 @@ nav a{
         flex-direction: column;
         display: flex;
         transition: all 1s ease-out;
+        transform: translateX(-105vw);
+        transition: 0.5s;
           
     }
     nav a{
